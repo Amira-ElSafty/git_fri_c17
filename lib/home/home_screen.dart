@@ -6,6 +6,9 @@ class HomeScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.pink,
+      appBar: AppBar(
+        backgroundColor: Colors.teal,
+      ),
     );
   }
 }
